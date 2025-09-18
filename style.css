@@ -24,3 +24,11 @@ p {
     text-align: center;
     color: maroon;
 }
+a {
+    color: red;
+    background-color: yellow;
+}
+a:hover {
+    color: blue;
+    background-color: pink;
+}
