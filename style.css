@@ -1,34 +1,57 @@
 body {
-    background-color: lightgrey;
-    color:maroon
+    background-color: rgb(255, 213, 114);
     font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <400>;
-    font-style: normal;
+}
+
+.wrap {
+    background-color: rgb(255, 239, 239);
+    max-width: 1024px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container {
+    background-color: rgb(235, 197, 144);;
+    color: white;
+    max-width: 600px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 5px auto;
+    padding: 5px 30px;
 }
 
 h1 {
     text-align: center;
-    color: darkblue;
+    color: maroon;
 }
+
 img {
     display: block;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
-    border: 5px solid darkblue;
+    border: 2px solid rgb(187, 110, 3);
     border-radius: 10px;
     box-shadow: 5px 10px 8px #888888;
 }
+
 p {
     font-size: 20px;
     text-align: center;
     color: maroon;
 }
+
 a {
     color: red;
+    text-align: center;
     background-color: yellow;
 }
+
 a:hover {
-    color: blue;
+    color: rgb(239, 255, 147);
+    text-align: center;
     background-color: pink;
 }
