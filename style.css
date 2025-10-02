@@ -55,3 +55,13 @@ a:hover {
     text-align: center;
     background-color: pink;
 }
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    border: none
+}
