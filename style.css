@@ -62,6 +62,16 @@ ul {
 }
 
 li {
-    display: flex;
+    display: block;
     border: none
+}
+
+#navbar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
 }
