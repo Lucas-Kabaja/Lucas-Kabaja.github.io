@@ -1,0 +1,152 @@
+body {
+    background-color: rgb(255, 213, 114);
+    font-family: "Oswald", sans-serif;
+}
+
+.wrap {
+    background-color: rgb(255, 239, 239);
+    max-width: 1024px;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 20px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container {
+    background-color: rgb(235, 197, 144);
+    color: white;
+    max-width: 600px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 5px auto;
+    padding: 5px 30px;
+}
+
+h1 {
+    text-align: center;
+    color: maroon;
+}
+
+img {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(187, 110, 3);
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    color: maroon;
+}
+
+a {
+    color: rgb(247, 249, 238);
+    text-align: center;
+    background-color: rgb(182, 5, 5);
+    rounded: 5px;
+}
+
+a:hover {
+    color:maroon;
+    text-align: center;
+    background-color: pink;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    display: block;
+    border: none
+}
+
+#navbar {
+    rounded: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    border-radius: 10px
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 15px;
+    margin: 0 6px;
+}
+
+#navbar ul li a:hover {
+    background-color:rgb(230, 30, 30);
+}
+
+
+@media(max-width:500px) {
+    body {
+        background-color: rgb(255, 213, 114);
+    }
+
+    #smartphone {
+        display: block;
+    }
+}
+
+@media(min-width: 501px) and (max-width:768px) {
+    body {
+        background-color: rgb(233, 177, 45);
+    }
+
+    #tablet {
+        display: block;
+    }
+}
+
+@media(min-width: 769px) and (max-width:1200px) {
+    body {
+        background-color: rgb(233, 231, 89);
+    }
+
+    #normal {
+        display: block;
+    }
+}
+
+@media(min-width: 1201px) {
+    body {
+        background-color: rgb(233, 141, 67);
+    }
+
+    #widescreen {
+        display: block;
+    }
+}
+
+@media(max-height: 500px) {
+    body {
+        background-color: rgb(241, 105, 31);
+    }
+
+    #landscape {
+        display: block;
+    }
+}
+
